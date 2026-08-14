@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saransh Milind — Software Engineer</title>
+  <meta name="description" content="Saransh Milind - Computer Science Student & Software Developer">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="ambient"></div>
+  <canvas id="particles"></canvas>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="logo">
+      <svg class="emblem" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M50 4 L92 20 L92 52 C92 76 74 92 50 98 C26 92 8 76 8 52 L8 20 Z" stroke="url(#g1)" stroke-width="3" fill="rgba(11,61,145,0.15)"/>
+        <text x="50" y="60" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="30" font-weight="700" fill="url(#g2)">&lt;/&gt;</text>
+        <defs>
+          <linearGradient id="g1" x1="8" y1="4" x2="92" y2="98" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#F5C542"/>
+            <stop offset="55%" stop-color="#D71920"/>
+            <stop offset="100%" stop-color="#2E63D6"/>
+          </linearGradient>
+          <linearGradient id="g2" x1="8" y1="30" x2="92" y2="70" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#F5C542"/>
+            <stop offset="100%" stop-color="#EEF1FA"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      SARANSH MILIND
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#journey">Journey</a>
+      <a href="#skills">Powers</a>
+      <a href="#projects">Missions</a>
+      <a href="#contact">Contact</a>
+      <a href="Saransh_Milind_Resume.pdf" download class="btn primary">Resume ⬇</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero reveal">
+    <div class="hero-text">
+      <span class="badge">DEVELOPER WITH A MISSION</span>
+      <p class="eyebrow">HELLO, I'M</p>
+      <h1>
+        <span class="name">Saransh Milind</span>
+        BUILDING DIGITAL SOLUTIONS WITH PURPOSE.
+      </h1>
+      <p class="headline">
+        Computer Science Engineering student focused on building
+        clean, scalable, and user-friendly software and web applications.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn primary">View My Missions →</a>
+        <a href="Saransh_Milind_Resume.pdf" download class="btn secondary">Download Resume ⬇</a>
+      </div>
+
+      <div class="stats">
+        <div>
+          <h3>02</h3>
+          <p>Projects</p>
+        </div>
+        <div>
+          <h3>150+</h3>
+          <p>Problems Solved</p>
+        </div>
+        <div>
+          <h3>BTech CSE</h3>
+          <p>2023 – 2027</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="photo-rig">
+        <svg class="emblem-backdrop" viewBox="0 0 200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M100 6 L184 38 L184 108 C184 154 148 190 100 214 C52 190 16 154 16 108 L16 38 Z"
+                stroke="url(#heroShield)" stroke-width="1.4" fill="none" opacity="0.55"/>
+          <path d="M100 26 L166 52 L166 106 C166 142 138 170 100 190 C62 170 34 142 34 106 L34 52 Z"
+                stroke="url(#heroShield)" stroke-width="0.8" fill="none" opacity="0.35"/>
+          <defs>
+            <linearGradient id="heroShield" x1="16" y1="6" x2="184" y2="214" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#F5C542"/>
+              <stop offset="45%" stop-color="#D71920"/>
+              <stop offset="100%" stop-color="#2E63D6"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <div class="energy-ring"></div>
+        <div class="photo-frame">
+          <img src="./photo.jpg" alt="Saransh Milind">
+          <div class="grade"></div>
+          <div class="vignette"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section reveal">
+    <div class="section-head">
+      <p class="eyebrow mono">01 — IDENTITY</p>
+      <h2>THE MAN BEHIND THE CODE</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-copy">
+        <p>
+          I am a <strong>detail-oriented Computer Science student</strong> with a strong foundation
+          in Data Structures &amp; Algorithms, software development, and problem solving.
+          I'm skilled in designing and implementing robust code modules using
+          Java, Python, and web technologies.
+        </p>
+        <p>
+          I'm seeking a <strong>Software Developer internship</strong> to contribute to clean,
+          efficient application development, collaborate with development teams,
+          and grow in a client-driven, team-oriented environment — treating every
+          problem as a mission worth solving properly.
+        </p>
+      </div>
+
+      <div class="id-card">
+        <p class="id-label">Identity Profile</p>
+        <h3 class="id-name">Saransh Milind</h3>
+        <div class="id-row"><span>Role</span><span>Software Developer</span></div>
+        <div class="id-row"><span>Mission</span><span>Build • Learn • Solve</span></div>
+        <div class="id-row"><span>Specialization</span><span>Software &amp; Web Dev</span></div>
+        <div class="id-row"><span>Base</span><span>Lucknow, Uttar Pradesh</span></div>
+        <div class="id-row"><span>Status</span><span>BTech CSE, 2023–2027</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNEY / EDUCATION -->
+  <section id="journey" class="section reveal">
+    <div class="section-head">
+      <p class="eyebrow mono">02 — JOURNEY</p>
+      <h2>THE JOURNEY</h2>
+    </div>
+
+    <div class="journey-track">
+      <div class="journey-item">
+        <div class="journey-dot"></div>
+        <div class="journey-content">
+          <p class="journey-date mono">2023 – 2027 (Expected)</p>
+          <h3>Bachelor of Technology, Computer Science</h3>
+          <p class="journey-org">Babu Banarasi Das Northern India Institute of Technology, Lucknow</p>
+        </div>
+      </div>
+      <div class="journey-item">
+        <div class="journey-dot"></div>
+        <div class="journey-content">
+          <p class="journey-date mono">2023</p>
+          <h3>Intermediate — Class XII</h3>
+          <p class="journey-org">Daffodils Convent Inter College, UPMSP, Uttar Pradesh</p>
+        </div>
+      </div>
+      <div class="journey-item">
+        <div class="journey-dot"></div>
+        <div class="journey-content">
+          <p class="journey-date mono">2021</p>
+          <h3>High School — Class X</h3>
+          <p class="journey-org">Daffodils Convent Inter College, UPMSP, Uttar Pradesh</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section reveal">
+    <div class="section-head">
+      <p class="eyebrow mono">03 — ABILITIES</p>
+      <h2>MY SUPERPOWERS</h2>
+    </div>
+
+    <div class="card-grid">
+      <div class="card">
+        <span class="power-tag">Core Power</span>
+        <h3>Languages</h3>
+        <p>Core programming languages for application and web development</p>
+        <span class="taglist">Java • Python • SQL • HTML5 • CSS3 • JS</span>
+      </div>
+      <div class="card">
+        <span class="power-tag">Framework Power</span>
+        <h3>Frameworks &amp; Databases</h3>
+        <p>Building and persisting full-stack web applications</p>
+        <span class="taglist">Django (MVT) • MySQL</span>
+      </div>
+      <div class="card">
+        <span class="power-tag">Tooling Power</span>
+        <h3>Developer Tools</h3>
+        <p>Version control and day-to-day development environment</p>
+        <span class="taglist">Git • GitHub • VS Code</span>
+      </div>
+      <div class="card">
+        <span class="power-tag">Problem-Solving Power</span>
+        <h3>Core Competencies</h3>
+        <p>Foundations behind every project and every solved problem</p>
+        <span class="taglist">DSA • Problem Solving • Responsive Design • SDLC</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section reveal">
+    <div class="section-head">
+      <p class="eyebrow mono">04 — RECORD</p>
+      <h2>MISSIONS COMPLETED</h2>
+    </div>
+
+    <div class="card-grid">
+      <div class="mission-card">
+        <div class="mission-meta">
+          <span class="mission-id mono">MISSION #001</span>
+          <span class="mission-status">✓ Completed</span>
+        </div>
+        <h3>Secure Video Authenticator</h3>
+        <p class="desc">A secure media platform built on the Django MVT framework, with robust authentication and access-control modules, structured video upload/retrieval workflows, and persistent SQLite3 storage.</p>
+        <p class="mission-tech-label">Technologies</p>
+        <p class="mission-tech">Python • Django • MySQL</p>
+        <a href="https://github.com/SaranshMilind/Video-Authenticator" target="_blank" rel="noopener noreferrer" class="btn secondary">View GitHub →</a>
+      </div>
+
+      <div class="mission-card">
+        <div class="mission-meta">
+          <span class="mission-id mono">MISSION #002</span>
+          <span class="mission-status">✓ Completed</span>
+        </div>
+        <h3>Personal Portfolio Website</h3>
+        <p class="desc">A fully responsive, mobile-first portfolio built with HTML5, CSS3, and JavaScript — clean UI, optimized performance, and deployed with a structured Git/GitHub Pages workflow.</p>
+        <p class="mission-tech-label">Technologies</p>
+        <p class="mission-tech">HTML5 • CSS3 • JavaScript • GitHub Pages</p>
+        <div style="display:flex; gap:0.8rem; flex-wrap:wrap;">
+          <a href="https://saranshmilind.github.io/Personal-Portfolio/" target="_blank" rel="noopener noreferrer" class="btn secondary">Live Demo →</a>
+          <a href="https://github.com/SaranshMilind/Personal-Portfolio" target="_blank" rel="noopener noreferrer" class="btn secondary">View GitHub →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section reveal">
+    <div class="section-head">
+      <p class="eyebrow mono">05 — COMMENDATIONS</p>
+      <h2>FIELD RECORD</h2>
+    </div>
+
+    <div class="card-grid">
+      <div class="card">
+        <span class="power-tag">Leaderboard</span>
+        <h3>Achievements &amp; Leadership</h3>
+        <ul class="record-list">
+          <li>Solved 150+ problems on LeetCode and CodeChef, demonstrating strong DSA proficiency and analytical problem-solving skills.</li>
+          <li>Served as Technical Coordinator for College Tech Fest — managed and coordinated 15 volunteers, demonstrating teamwork, ownership, and leadership under pressure.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <span class="power-tag">Verified</span>
+        <h3>Certifications</h3>
+        <ul class="record-list">
+          <li>Tata — Gen AI Powered Data Analytics Job Simulation</li>
+          <li>Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section reveal">
+    <div class="section-head">
+      <p class="eyebrow mono">06 — TRANSMISSION</p>
+      <h2>CALL THE DEVELOPER</h2>
+      <p class="section-text" style="margin-top:1rem;">Have a project, opportunity, or challenge?</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p>
+          Interested in working together or discussing opportunities?
+          Please reach out using the form or through the links below.
+        </p>
+
+        <div class="contact-link-row">
+          <span class="k">Email</span>
+          <a href="mailto:saranshmilind2004@gmail.com">saranshmilind2004@gmail.com</a>
+        </div>
+
+        <div class="contact-link-row">
+          <span class="k">Phone</span>
+          <a href="tel:+919044101859">+91 90441 01859</a>
+        </div>
+
+        <div class="contact-link-row">
+          <span class="k">LinkedIn</span>
+          <a href="https://www.linkedin.com/in/saransh-milind-a10a50223" target="_blank" rel="noopener noreferrer">
+            linkedin.com/in/saransh-milind-a10a50223
+          </a>
+        </div>
+
+        <div class="contact-link-row">
+          <span class="k">GitHub</span>
+          <a href="https://github.com/SaranshMilind" target="_blank" rel="noopener noreferrer">
+            github.com/SaranshMilind
+          </a>
+        </div>
+
+        <div class="contact-link-row">
+          <span class="k">Resume</span>
+          <a href="Saransh_Milind_Resume.pdf" download>Download PDF ⬇</a>
+        </div>
+      </div>
+
+      <div class="terminal">
+        <form id="contact-form" class="contact-form">
+          <div>
+            <label for="user_name">Your Name</label>
+            <input type="text" id="user_name" name="user_name" placeholder="John Doe" required>
+          </div>
+          <div>
+            <label for="user_email">Your Email</label>
+            <input type="email" id="user_email" name="user_email" placeholder="you@example.com" required>
+          </div>
+          <div>
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about your project..." rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn primary">Send Transmission →</button>
+          <p id="form-status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <svg class="footer-emblem" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50 4 L92 20 L92 52 C92 76 74 92 50 98 C26 92 8 76 8 52 L8 20 Z" stroke="url(#g3)" stroke-width="3" fill="rgba(11,61,145,0.12)"/>
+      <text x="50" y="60" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="30" font-weight="700" fill="url(#g4)">&lt;/&gt;</text>
+      <defs>
+        <linearGradient id="g3" x1="8" y1="4" x2="92" y2="98" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stop-color="#F5C542"/>
+          <stop offset="55%" stop-color="#D71920"/>
+          <stop offset="100%" stop-color="#2E63D6"/>
+        </linearGradient>
+        <linearGradient id="g4" x1="8" y1="30" x2="92" y2="70" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stop-color="#F5C542"/>
+          <stop offset="100%" stop-color="#EEF1FA"/>
+        </linearGradient>
+      </defs>
+    </svg>
+    <p class="footer-name">SARANSH MILIND</p>
+    <p class="footer-tag">"Building the future, one line of code at a time."</p>
+    <div class="footer-links">
+      <a href="https://github.com/SaranshMilind" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/saransh-milind-a10a50223" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="mailto:saranshmilind2004@gmail.com">Email</a>
+    </div>
+    <p class="copyright">&copy; 2026 Saransh Milind. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
