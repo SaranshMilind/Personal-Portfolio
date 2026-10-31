@@ -331,7 +331,7 @@
             <label for="message">Your Message</label>
             <textarea id="message" name="message" placeholder="Tell me about your project..." rows="5" required></textarea>
           </div>
-          <button type="submit" class="btn primary">Send Transmission →</button>
+          <button type="button" class="btn primary">Connect →</button>
           <p id="form-status"></p>
         </form>
       </div>
@@ -365,17 +365,6 @@
     <p class="copyright">&copy; 2026 Saransh Milind. All Rights Reserved.</p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-  <script>
-    // EmailJS setup — replace with your own values from emailjs.com (free tier).
-    // 1. Sign up at https://www.emailjs.com and add an Email Service (e.g. Gmail).
-    // 2. Create an Email Template with {{user_name}}, {{user_email}}, {{message}} variables.
-    // 3. Paste your Public Key, Service ID, and Template ID below.
-    const EMAILJS_PUBLIC_KEY = "YOUR_PUBLIC_KEY";
-    const EMAILJS_SERVICE_ID = "YOUR_SERVICE_ID";
-    const EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID";
-    if (window.emailjs) emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
-  </script>
   <script src="script.js"></script>
 </body>
 </html>
